@@ -1,5 +1,5 @@
-import Button from "./html/Button";
-import CheckBox from "./html/CheckBox";
+import Button from "../../html/Button";
+import CheckBox from "../../html/CheckBox";
 import TodoListItem from "./TodoListItem";
 
 const TodoList = () => {

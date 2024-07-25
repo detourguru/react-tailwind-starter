@@ -1,5 +1,5 @@
-import Button from "./html/Button";
-import Input from "./html/Input";
+import Button from "../../html/Button";
+import Input from "../../html/Input";
 
 const TodoEditor = () => {
   return (
