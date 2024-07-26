@@ -20,14 +20,22 @@ export const todoReducer = (todos: TTodo[], action: TTodoAction) => {
           isCompleted: false,
         },
       ];
+<<<<<<< HEAD
     case "DELETE_TODO":
       return todos.filter((todo) => todo.id !== action.payload);
+=======
+>>>>>>> a240d2f82402fb1f288ac79a2a8bc4d9e68b2943
     case "TOGGLE_TODO":
       return todos.map((todo) =>
         todo.id === action.payload
           ? { ...todo, isCompleted: !todo.isCompleted }
           : todo
       );
+<<<<<<< HEAD
+=======
+    case "DELETE_TODO":
+      return todos.filter((todo) => todo.id !== action.payload);
+>>>>>>> a240d2f82402fb1f288ac79a2a8bc4d9e68b2943
     default:
       return todos;
   }
