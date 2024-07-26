@@ -1,6 +1,6 @@
-import Input from "./html/Input";
-import Button from "./html/Button";
-import CheckBox from "./html/CheckBox";
+import Input from "../html/Input";
+import Button from "../html/Button";
+import CheckBox from "../html/CheckBox";
 
 const Todo = () => {
   return (
